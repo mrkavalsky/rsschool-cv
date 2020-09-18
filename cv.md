@@ -1,4 +1,3 @@
-1. Имя и фамилия
-1. Контакты для связи
-1. Образование (включая курсы, семинары, лекции, онлайн-обучение)
-
+1. Dmitriy Bukhovetski
+1. E-mail: mr.kavalsky@gmail.com
+1. I graduated from BSUIR, electro-optical systems and technologies
