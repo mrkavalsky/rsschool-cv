@@ -1,0 +1,59 @@
+.cv-block{
+    height: 1686px;
+    width: 1191px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.header{
+    height: 385px;
+    width: 1191px;
+    background-color: #2251b2;
+}
+.figure{
+    height: 289px;
+    width: 361px;
+    margin-left: 107px;
+    position: absolute;
+    top: 180px;
+}
+.body{
+    background-color:#f7e8e3;
+}
+.proffesion{
+    height: 18px;
+    width: 225px;
+    color: white;
+    margin-left: 600px;
+    position: absolute;
+    top: 180px;
+    font-size: 22px;
+}
+.name{
+    height: 139px;
+    width: 331px;
+    color: white;
+    margin-left: 600px;
+    position: absolute;
+    top: 198px;
+    font-size: 71px;
+}
+.block-info{
+    height: 139px;
+    width: 331px;
+    margin: 56px 0 0 600px;
+    font-size: 22px;
+}
+.block-add-info{
+    height: 139px;
+    width: 824px;
+    margin: 56px 0 0 107px;
+    font-size: 22px;
+}
+.article{
+    font-size: 33px;
+    font-weight: bold;
+}
+.margin{
+    margin-top: 12px;
+}
