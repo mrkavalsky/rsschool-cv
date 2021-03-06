@@ -1,59 +1,113 @@
-.cv-block{
-    height: 1686px;
-    width: 1191px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
+*{
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
-.header{
-    height: 385px;
-    width: 1191px;
-    background-color: #2251b2;
-}
-.figure{
-    height: 289px;
-    width: 361px;
-    margin-left: 107px;
-    position: absolute;
-    top: 180px;
-}
-.body{
+
+body{
     background-color:#f7e8e3;
 }
-.proffesion{
-    height: 18px;
-    width: 225px;
-    color: white;
-    margin-left: 600px;
-    position: absolute;
-    top: 180px;
-    font-size: 22px;
+
+main{
+    height: 1686px;
+    width: 1191px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: white;
 }
-.name{
-    height: 139px;
-    width: 331px;
-    color: white;
-    margin-left: 600px;
-    position: absolute;
-    top: 198px;
-    font-size: 71px;
+
+.blue-line{
+    width: 5%;
+    height: 100%;
+    background-color: #166AB8;
 }
-.block-info{
-    height: 139px;
-    width: 331px;
-    margin: 56px 0 0 600px;
-    font-size: 22px;
+
+.block{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.block-add-info{
-    height: 139px;
-    width: 824px;
-    margin: 56px 0 0 107px;
-    font-size: 22px;
+
+.cv{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.article{
-    font-size: 33px;
-    font-weight: bold;
+
+.column{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-.margin{
-    margin-top: 12px;
+
+.logo{
+    height: 2rem;
+    width: auto;
+}
+
+footer{
+    font-size: 1.5rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: gray;
+    transition: color 0.4s;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+figure img{
+    width: 250px;
+    height: auto;
+}
+
+h1{
+    color: #2251b2;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    color: #2251b2;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+a{
+    color: #2251b2;
+}
+
+ul{
+    font-size: 1.5rem;
 }
