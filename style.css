@@ -78,9 +78,9 @@ header{
     
 }
 
-figure{
-    height: 289px;
-    width: 361px;
+figure img{
+    width: 250px;
+    height: auto;
 }
 
 h1{
