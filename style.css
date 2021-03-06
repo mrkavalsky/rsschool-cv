@@ -1,3 +1,8 @@
+*{
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+
 body{
     background-color:#f7e8e3;
 }
@@ -42,11 +47,6 @@ main{
     justify-content: space-around;
 }
 
-section{
-    
-    background-color: green;
-}
-
 .logo{
     height: 2rem;
     width: auto;
@@ -69,13 +69,39 @@ a:hover{
     transition: color 0.4s;
 }
 
-.header{
-    height: 385px;
-    width: 1191px;
-    background-color: #2251b2;
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 figure{
     height: 289px;
     width: 361px;
+}
+
+h1{
+    color: #2251b2;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    color: #2251b2;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+a{
+    color: #2251b2;
 }
